@@ -1,6 +1,6 @@
 # StPeter
 
-StPeter is an OAuth authentication server built with Node.js, Express, and TypeScript. It provides secure authentication mechanisms using JWT tokens and supports various user actions such as registration, login, password recovery, and email verification.
+StPeter is an OAuth authentication server built with Node.js, Express, and TypeScript with postgresql as databse suport. It provides secure authentication mechanisms using JWT tokens and supports various user actions such as registration, login, password recovery, and email verification. The project is a good base for Express-based projects.
 
 ## Table of Contents
 
