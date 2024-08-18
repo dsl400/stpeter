@@ -1,0 +1,58 @@
+{
+  "name": "stpeter",
+  "version": "1.0.0",
+  "author": "Valentin Sasek",
+  "description": "OAUTH authentication server",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "start:dev": "ts-node-dev --respawn --transpile-only server/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "jwt-simple": "^0.5.6",
+    "nodemailer": "^6.9.13",
+    "pg": "^8.11.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/atob": "^2.1.4",
+    "@types/bcrypt": "^5.0.2",
+    "@types/body-parser": "^1.19.5",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.8",
+    "@types/nodemailer": "^6.4.15",
+    "@types/pg": "^8.11.5",
+    "@types/supertest": "^6.0.2",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsl400/stpeter.git"
+  },
+  "keywords": [
+    "JWT",
+    "oauth"
+  ],
+  "bugs": {
+    "url": "https://github.com/dsl400/stpeter/issues"
+  },
+  "homepage": "https://github.com/dsl400/stpeter#readme"
+}
